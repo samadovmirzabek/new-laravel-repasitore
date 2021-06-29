@@ -18,9 +18,7 @@ Route::get('/', function () {
 });
 Route::resource('product','ProductController');
 Route::resource('category','CategoryController');
-jlhjh;
-sdfsdfsdfsdfsdfhb;
-kjkjhb;
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
