@@ -115,7 +115,5 @@ class ProductController extends Controller
       $product->delete();
       return back();
     }
-    public function githubb(){
-        return true;
-    }
+    
 }
